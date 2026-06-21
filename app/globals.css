@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-poppins: Poppins, Inter, ui-sans-serif, system-ui, sans-serif;
+  --brand: #16c47f;
+  --brand-gradient: linear-gradient(100deg, #15b97b, #23c3b6, #36b4e6);
+  --theory: linear-gradient(135deg, #10b981, #14b8a6);
+  --theory-tint: #e9fbf3;
+  --lab: linear-gradient(135deg, #f59e0b, #f97316);
+  --lab-tint: #fef4e2;
+  --bg: #f6f8fa;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --ring: #16c47f;
+}
+
+.dark {
+  --bg: #0b1220;
+  --surface: #131c2e;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--ring), white 20%);
+  outline-offset: 2px;
+}
+
+.field {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid rgb(226 232 240);
+  background: rgb(248 250 252);
+  padding: 0.75rem 0.875rem;
+  color: var(--text);
+  outline: none;
+}
+
+.dark .field {
+  border-color: rgb(255 255 255 / 0.1);
+  background: rgb(255 255 255 / 0.05);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-page {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+}

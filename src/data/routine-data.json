@@ -1,0 +1,218 @@
+{
+  "university": "Hamdard University Bangladesh",
+  "department": "Department of Computer Science and Engineering",
+  "title": "Class Routine for Spring 2026",
+  "effectiveDate": "10 May 2026",
+  "headOfDepartment": {
+    "name": "Md. Monowar Hossain",
+    "designation": "Associate Professor & Head"
+  },
+  "days": ["Sat", "Sun", "Mon", "Tues", "Wed"],
+  "timeSlots": [
+    { "id": 1, "label": "09:30 – 10:30 am", "start": "09:30", "end": "10:30" },
+    { "id": 2, "label": "10:30 – 11:30 am", "start": "10:30", "end": "11:30" },
+    { "id": 3, "label": "11:30 – 12:30 pm", "start": "11:30", "end": "12:30" },
+    { "id": 4, "label": "12:30 – 01:30 pm", "start": "12:30", "end": "13:30" },
+    { "id": 5, "label": "02:15 – 03:15 pm", "start": "14:15", "end": "15:15" },
+    { "id": 6, "label": "03:15 – 04:15 pm", "start": "15:15", "end": "16:15" }
+  ],
+  "teachers": {
+    "AAZ": "Dr Md Abdullah Al Zubaer",
+    "MMH": "Md. Monowar Hossain",
+    "MSI": "Md. Shahidul Islam",
+    "MAH": "Md. Abul Hasnat",
+    "AR": "Md. Afzalur Rahaman",
+    "PKS": "Palash Saha",
+    "FH": "Fahima Hossain",
+    "TR": "Tahmid Rahman",
+    "MRH": "Md. Rashadul Haque Shuvo",
+    "TFS": "Taslima Ferdous Supty",
+    "EA": "Era Aich",
+    "NS": "Md. Nazmus Sakib",
+    "IAZ": "Imam Abu Jubayer",
+    "AUM": "Prof. Dr. Md. Aman Uddin Muzahid",
+    "TAS": "Tasfirul Alam Siam",
+    "MHR": "Minhazur Rahman",
+    "HI": "Hafiju Islam",
+    "AFS": "Abdullah Al Fahad Shaumik",
+    "SNS": "Shamshunnaher Shanta",
+    "RH": "Riad Hossen",
+    "NHF": "Nahid Hasan Fahad",
+    "MAA": "Md. Abdul Aziz",
+    "SHM": "Shaiza Monjury",
+    "MMB": "Md. Maruf Billah",
+    "NA": "Nusrat Anamilka",
+    "NF": "New Faculty"
+  },
+  "unmappedInitials": ["MO", "MRI", "MMI", "SS"],
+  "specialBlocks": [
+    { "day": "Wed", "label": "Club Activities", "slots": [6], "appliesTo": "all batches" }
+  ],
+  "sessions": [
+    { "day": "Sat", "batch": "23rd", "semester": "8th", "section": null, "slots": [1], "course": "CSE423", "teacher": "MAH", "room": "137" },
+    { "day": "Sat", "batch": "23rd", "semester": "8th", "section": null, "slots": [2], "course": "CSE421", "teacher": "MMH", "room": "137" },
+    { "day": "Sat", "batch": "23rd", "semester": "8th", "section": null, "slots": [3], "course": "CSE469", "teacher": "TR", "room": "228" },
+    { "day": "Sat", "batch": "23rd", "semester": "8th", "section": null, "slots": [4], "course": "MGT417", "teacher": "MSI", "room": "131" },
+    { "day": "Sat", "batch": "23rd", "semester": "8th", "section": null, "slots": [5], "course": "MGT417", "teacher": "MSI", "room": "130" },
+
+    { "day": "Sat", "batch": "24th", "semester": "7th", "section": null, "slots": [3], "course": "CSE413", "teacher": "NS", "room": "131" },
+    { "day": "Sat", "batch": "24th", "semester": "7th", "section": null, "slots": [4], "course": "CSE415", "teacher": "IAZ", "room": "101" },
+    { "day": "Sat", "batch": "24th", "semester": "7th", "section": null, "slots": [5, 6], "course": "CSE416", "teacher": "IAZ", "room": "136" },
+
+    { "day": "Sat", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [2], "course": "CSE313", "teacher": "MSI", "room": "228" },
+    { "day": "Sat", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [4], "course": "CSE315", "teacher": "MRH", "room": "228" },
+    { "day": "Sat", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [5], "course": "CSE311", "teacher": "PKS", "room": "137" },
+
+    { "day": "Sat", "batch": "27th", "semester": "4th", "section": null, "slots": [1], "course": "CSE223", "teacher": "PKS", "room": "136" },
+    { "day": "Sat", "batch": "27th", "semester": "4th", "section": null, "slots": [2, 3], "course": "CSE224", "teacher": "PKS", "room": "136" },
+    { "day": "Sat", "batch": "27th", "semester": "4th", "section": null, "slots": [4], "course": "CSE227", "teacher": "MMH", "room": "136" },
+    { "day": "Sat", "batch": "27th", "semester": "4th", "section": null, "slots": [5], "course": "CSE229", "teacher": "EA", "room": "102" },
+
+    { "day": "Sat", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [3, 4], "course": "CSE216", "teacher": "FH", "room": "137" },
+    { "day": "Sat", "batch": "28th", "semester": "3rd", "section": "Sec 2", "slots": [2, 3], "course": "CSE214", "teacher": "IAZ", "room": "130" },
+    { "day": "Sat", "batch": "28th", "semester": "3rd", "section": null, "slots": [5], "course": "MAT213", "teacher": "MO", "room": "228" },
+    { "day": "Sat", "batch": "28th", "semester": "3rd", "section": null, "slots": [6], "course": "BAN211", "teacher": "AUM", "room": "102" },
+
+    { "day": "Sat", "batch": "29th", "semester": "2nd", "section": null, "slots": [1], "course": "ENG127", "teacher": "MMB", "room": "101" },
+    { "day": "Sat", "batch": "29th", "semester": "2nd", "section": null, "slots": [2], "course": "MAT125", "teacher": "RH", "room": "101" },
+    { "day": "Sat", "batch": "29th", "semester": "2nd", "section": "Sec 1", "slots": [3, 4], "course": "EEE128", "teacher": "MHR", "room": "111" },
+    { "day": "Sat", "batch": "29th", "semester": "2nd", "section": "Sec 1", "slots": [5, 6], "course": "PHY122", "teacher": "MHR", "room": "116" },
+    { "day": "Sat", "batch": "29th", "semester": "2nd", "section": "Sec 2", "slots": [3], "course": "PHY121", "teacher": "HI", "room": "102" },
+
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [1], "course": "CSE113", "teacher": "MSI", "room": "249" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [2], "course": "MAT115", "teacher": "MAA", "room": "249" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [3], "course": "ENG111", "teacher": "NA", "room": "101" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [5], "course": "PHY111", "teacher": "SNS", "room": "101" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [6], "course": "CSE117", "teacher": "MRH", "room": "228" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [1], "course": "PHY111", "teacher": "SNS", "room": "102" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [2], "course": "EEE117", "teacher": "MHR", "room": "102" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [4], "course": "ENG111", "teacher": "NA", "room": "102" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [5], "course": "CSE117", "teacher": "MRH", "room": "249" },
+    { "day": "Sat", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [6], "course": "CSE113", "teacher": "MSI", "room": "249" },
+
+    { "day": "Sun", "batch": "24th", "semester": "7th", "section": null, "slots": [2], "course": "CSE469", "teacher": "FH", "room": "102" },
+    { "day": "Sun", "batch": "24th", "semester": "7th", "section": null, "slots": [3, 4], "course": "CSE411", "teacher": "AAZ", "room": "131" },
+    { "day": "Sun", "batch": "24th", "semester": "7th", "section": null, "slots": [5, 6], "course": "CSE412", "teacher": "AAZ", "room": "131" },
+
+    { "day": "Sun", "batch": "25th", "semester": "6th", "section": null, "slots": [1, 2], "course": "CSE322", "teacher": "EA", "room": "136" },
+    { "day": "Sun", "batch": "25th", "semester": "6th", "section": null, "slots": [4], "course": "CSE322", "teacher": "EA", "room": "101" },
+    { "day": "Sun", "batch": "25th", "semester": "6th", "section": null, "slots": [6], "course": "MAT323", "teacher": "MRI", "room": "102" },
+
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [1], "course": "CSE311", "teacher": "AR", "room": "130" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [2], "course": "CSE315", "teacher": "MRH", "room": "130" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [3, 4], "course": "CSE316", "teacher": "MRH", "room": "130" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": null, "slots": [5], "course": "MAT317", "teacher": "MRI", "room": "228" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [1, 2], "course": "CSE318", "teacher": "PKS", "room": "131" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [3], "course": "CSE317", "teacher": "PKS", "room": "101" },
+    { "day": "Sun", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [6], "course": "CSE311", "teacher": "PKS", "room": "137" },
+
+    { "day": "Sun", "batch": "28th", "semester": "3rd", "section": null, "slots": [1], "course": "ACT215", "teacher": "MMI", "room": "228" },
+    { "day": "Sun", "batch": "28th", "semester": "3rd", "section": null, "slots": [2], "course": "MAT217", "teacher": "MO", "room": "228" },
+    { "day": "Sun", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [3, 4], "course": "CSE214", "teacher": "NS", "room": "137" },
+    { "day": "Sun", "batch": "28th", "semester": "3rd", "section": "Sec 2", "slots": [3, 4], "course": "CSE216", "teacher": "FH", "room": "136" },
+    { "day": "Sun", "batch": "28th", "semester": "3rd", "section": null, "slots": [6], "course": "BAN211", "teacher": "AUM", "room": "101" },
+
+    { "day": "Sun", "batch": "29th", "semester": "2nd", "section": "Sec 1", "slots": [2], "course": "PHY121", "teacher": "AFS", "room": "249" },
+    { "day": "Sun", "batch": "29th", "semester": "2nd", "section": null, "slots": [3, 4], "course": "CSE121", "teacher": "TR", "room": "228" },
+    { "day": "Sun", "batch": "29th", "semester": "2nd", "section": "Sec 1", "slots": [5, 6], "course": "CSE122", "teacher": "TR", "room": "130" },
+    { "day": "Sun", "batch": "29th", "semester": "2nd", "section": "Sec 2", "slots": [1, 2], "course": "CSE122", "teacher": "TR", "room": "137" },
+    { "day": "Sun", "batch": "29th", "semester": "2nd", "section": "Sec 2", "slots": [5, 6], "course": "EEE128", "teacher": "AFS", "room": "111" },
+
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [1], "course": "CSE117", "teacher": "MRH", "room": "101" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [2], "course": "EEE117", "teacher": "NHF", "room": "101" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [3], "course": "MAT115", "teacher": "MAA", "room": "102" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [5], "course": "CSE113", "teacher": "MSI", "room": "102" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [1], "course": "MAT115", "teacher": "MAA", "room": "102" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [4], "course": "CSE113", "teacher": "MSI", "room": "228" },
+    { "day": "Sun", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [5, 6], "course": "CSE112", "teacher": "IAZ", "room": "136" },
+
+    { "day": "Mon", "batch": "23rd", "semester": "8th", "section": null, "slots": [1], "course": "CSE469", "teacher": "TR", "room": "137" },
+    { "day": "Mon", "batch": "23rd", "semester": "8th", "section": null, "slots": [3], "course": "CSE421", "teacher": "MMH", "room": "137" },
+    { "day": "Mon", "batch": "23rd", "semester": "8th", "section": null, "slots": [5], "course": "CSE423", "teacher": "MAH", "room": "228" },
+
+    { "day": "Mon", "batch": "24th", "semester": "7th", "section": null, "slots": [1], "course": "CSE417", "teacher": "EA", "room": "131" },
+    { "day": "Mon", "batch": "24th", "semester": "7th", "section": null, "slots": [2], "course": "CSE419", "teacher": "MMH", "room": "137" },
+    { "day": "Mon", "batch": "24th", "semester": "7th", "section": null, "slots": [3, 4], "course": "CSE418", "teacher": "EA", "room": "131" },
+
+    { "day": "Mon", "batch": "25th", "semester": "6th", "section": null, "slots": [1], "course": "MGT329", "teacher": "NF", "room": "228" },
+    { "day": "Mon", "batch": "25th", "semester": "6th", "section": null, "slots": [2], "course": "CSE321", "teacher": "EA", "room": "102" },
+    { "day": "Mon", "batch": "25th", "semester": "6th", "section": null, "slots": [3], "course": "CSE325", "teacher": "NS", "room": "102" },
+
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": null, "slots": [2], "course": "MAT317", "teacher": "MRI", "room": "228" },
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [3], "course": "CSE311", "teacher": "AR", "room": "130" },
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [4], "course": "CSE317", "teacher": "PKS", "room": "130" },
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [1], "course": "CSE317", "teacher": "PKS", "room": "136" },
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [4], "course": "CSE315", "teacher": "MRH", "room": "137" },
+    { "day": "Mon", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [5, 6], "course": "CSE316", "teacher": "MRH", "room": "136" },
+
+    { "day": "Mon", "batch": "27th", "semester": "4th", "section": null, "slots": [3], "course": "ENS221", "teacher": "JF", "room": "228" },
+    { "day": "Mon", "batch": "27th", "semester": "4th", "section": null, "slots": [4], "course": "CSE221", "teacher": "MAH", "room": "136" },
+    { "day": "Mon", "batch": "27th", "semester": "4th", "section": null, "slots": [5], "course": "CSE227", "teacher": "MMH", "room": "131" },
+    { "day": "Mon", "batch": "27th", "semester": "4th", "section": null, "slots": [6], "course": "CSE225", "teacher": "TAS", "room": "131" },
+
+    { "day": "Mon", "batch": "29th", "semester": "2nd", "section": "Sec 1", "slots": [1], "course": "PHY121", "teacher": "AFS", "room": "249" },
+    { "day": "Mon", "batch": "29th", "semester": "2nd", "section": null, "slots": [2], "course": "EEE127", "teacher": "NS", "room": "136" },
+    { "day": "Mon", "batch": "29th", "semester": "2nd", "section": "Sec 2", "slots": [3], "course": "PHY121", "teacher": "HI", "room": "101" },
+    { "day": "Mon", "batch": "29th", "semester": "2nd", "section": null, "slots": [4], "course": "CSE121", "teacher": "TR", "room": "228" },
+    { "day": "Mon", "batch": "29th", "semester": "2nd", "section": "Sec 2", "slots": [5, 6], "course": "PHY122", "teacher": "SS", "room": "116" },
+
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [1], "course": "ENG111", "teacher": "NA", "room": "101" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [2], "course": "PHY111", "teacher": "SNS", "room": "249" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [3], "course": "EEE117", "teacher": "NHF", "room": "249" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 1", "slots": [5, 6], "course": "CSE112", "teacher": "TFS", "room": "137" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [1], "course": "PHY111", "teacher": "SNS", "room": "102" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [2], "course": "ENG111", "teacher": "NA", "room": "101" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [3], "course": "CSE117", "teacher": "MRH", "room": "136" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [4], "course": "EEE117", "teacher": "MHR", "room": "102" },
+    { "day": "Mon", "batch": "30th", "semester": "1st", "section": "Sec 2", "slots": [5], "course": "MAT115", "teacher": "MAA", "room": "101" },
+
+    { "day": "Tues", "batch": "24th", "semester": "7th", "section": null, "slots": [1], "course": "CSE415", "teacher": "IAZ", "room": "137" },
+    { "day": "Tues", "batch": "24th", "semester": "7th", "section": null, "slots": [2], "course": "CSE419", "teacher": "MMH", "room": "137" },
+    { "day": "Tues", "batch": "24th", "semester": "7th", "section": null, "slots": [4], "course": "CSE417", "teacher": "EA", "room": "228" },
+
+    { "day": "Tues", "batch": "25th", "semester": "6th", "section": null, "slots": [1], "course": "MAT323", "teacher": "MRI", "room": "102" },
+    { "day": "Tues", "batch": "25th", "semester": "6th", "section": null, "slots": [2], "course": "CSE325", "teacher": "NS", "room": "131" },
+    { "day": "Tues", "batch": "25th", "semester": "6th", "section": null, "slots": [3, 4], "course": "CSE326", "teacher": "NS", "room": "131" },
+    { "day": "Tues", "batch": "25th", "semester": "6th", "section": null, "slots": [5], "course": "CSE323", "teacher": "MAH", "room": "136" },
+    { "day": "Tues", "batch": "25th", "semester": "6th", "section": null, "slots": [6], "course": "MGT329", "teacher": "NF", "room": "101" },
+
+    { "day": "Tues", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [1], "course": "CSE313", "teacher": "MSI", "room": "130" },
+    { "day": "Tues", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [2, 3], "course": "CSE314", "teacher": "MSI", "room": "130" },
+    { "day": "Tues", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [4], "course": "CSE317", "teacher": "PKS", "room": "130" },
+    { "day": "Tues", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [5, 6], "course": "CSE318", "teacher": "PKS", "room": "130" },
+
+    { "day": "Tues", "batch": "27th", "semester": "4th", "section": null, "slots": [1], "course": "CSE223", "teacher": "PKS", "room": "136" },
+    { "day": "Tues", "batch": "27th", "semester": "4th", "section": null, "slots": [2], "course": "CSE221", "teacher": "MAH", "room": "136" },
+    { "day": "Tues", "batch": "27th", "semester": "4th", "section": null, "slots": [3, 4], "course": "CSE222", "teacher": "MAH", "room": "136" },
+    { "day": "Tues", "batch": "27th", "semester": "4th", "section": null, "slots": [5], "course": "CSE229", "teacher": "EA", "room": "228" },
+    { "day": "Tues", "batch": "27th", "semester": "4th", "section": null, "slots": [6], "course": "ENS221", "teacher": "JF", "room": "228" },
+
+    { "day": "Tues", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [1], "course": "CSE213", "teacher": "NS", "room": "131" },
+    { "day": "Tues", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [2], "course": "ACT215", "teacher": "MMI", "room": "228" },
+    { "day": "Tues", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [3], "course": "CSE215", "teacher": "FH", "room": "228" },
+    { "day": "Tues", "batch": "28th", "semester": "3rd", "section": null, "slots": [4], "course": "MAT213", "teacher": "MO", "room": "101" },
+    { "day": "Tues", "batch": "28th", "semester": "3rd", "section": "Sec 1", "slots": [5], "course": "MAT217", "teacher": "MO", "room": "101" },
+
+    { "day": "Tues", "batch": "29th", "semester": "2nd", "section": null, "slots": [1], "course": "ENG127", "teacher": "MMB", "room": "228" },
+    { "day": "Tues", "batch": "29th", "semester": "2nd", "section": null, "slots": [2], "course": "MAT125", "teacher": "RH", "room": "102" },
+    { "day": "Tues", "batch": "29th", "semester": "2nd", "section": null, "slots": [5], "course": "EEE127", "teacher": "NS", "room": "131" },
+
+    { "day": "Wed", "batch": "24th", "semester": "7th", "section": null, "slots": [2], "course": "CSE469", "teacher": "FH", "room": "228" },
+    { "day": "Wed", "batch": "24th", "semester": "7th", "section": null, "slots": [3], "course": "CSE413", "teacher": "NS", "room": "228" },
+    { "day": "Wed", "batch": "24th", "semester": "7th", "section": null, "slots": [4, 5], "course": "CSE414", "teacher": "NS", "room": "131" },
+
+    { "day": "Wed", "batch": "25th", "semester": "6th", "section": null, "slots": [3], "course": "CSE323", "teacher": "MAH", "room": "136" },
+    { "day": "Wed", "batch": "25th", "semester": "6th", "section": null, "slots": [4, 5], "course": "CSE324", "teacher": "MAH", "room": "136" },
+
+    { "day": "Wed", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [3], "course": "CSE315", "teacher": "MRH", "room": "130" },
+    { "day": "Wed", "batch": "26th", "semester": "5th", "section": "Sec 1", "slots": [4], "course": "CSE313", "teacher": "MSI", "room": "130" },
+    { "day": "Wed", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [1, 2], "course": "CSE314", "teacher": "MSI", "room": "131" },
+    { "day": "Wed", "batch": "26th", "semester": "5th", "section": "Sec 2", "slots": [3], "course": "CSE313", "teacher": "MSI", "room": "137" },
+
+    { "day": "Wed", "batch": "27th", "semester": "4th", "section": null, "slots": [2], "course": "CSE225", "teacher": "TAS", "room": "101" },
+    { "day": "Wed", "batch": "27th", "semester": "4th", "section": null, "slots": [3, 4], "course": "CSE226", "teacher": "TAS", "room": "109" },
+
+    { "day": "Wed", "batch": "28th", "semester": "3rd", "section": null, "slots": [1], "course": "CSE213", "teacher": "NS", "room": "136" },
+    { "day": "Wed", "batch": "28th", "semester": "3rd", "section": null, "slots": [3], "course": "CSE215", "teacher": "FH", "room": "228" }
+  ]
+}
